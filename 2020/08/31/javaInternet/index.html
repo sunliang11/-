@@ -22,28 +22,32 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Muse","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="HTTP                                      HTTPS 端口                    80                                      443数据传输                    明文传输                                      加密传输真">
+<meta property="og:type" content="article">
+<meta property="og:title" content="javaInternet">
+<meta property="og:url" content="http://yoursite.com/2020/08/31/javaInternet/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="HTTP                                      HTTPS 端口                    80                                      443数据传输                    明文传输                                      加密传输真">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-08-31T04:02:28.000Z">
+<meta property="article:modified_time" content="2020-08-31T04:07:51.631Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/2020/08/31/javaInternet/">
 
 
 <script class="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Hexo</title>
+  <title>javaInternet | Hexo</title>
   
 
 
@@ -187,9 +191,10 @@
       <div class="main-inner">
         
 
-        <div class="content index posts-expand">
+        <div class="content post posts-expand">
           
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -207,10 +212,9 @@
 
     
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/08/31/javaInternet/" class="post-title-link" itemprop="url">javaInternet</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          javaInternet
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -232,7 +236,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <pre><code>                HTTP                                      HTTPS</code></pre>
+        <pre><code>                HTTP                                      HTTPS</code></pre>
 <p>端口                    80                                      443<br>数据传输                    明文传输                                      加密传输<br>真假网站识别    很容易被复制                      使用证书，很难被复制<br>浏览器显示区别    浏览器显示问号，提示不安全      浏览器显示小锁，提示安全<br>门槛                    不需要证书                      需要Gworg机构颁发证书，需要一定的成本<br>安全性                    很容易被劫持，跳转到其他网站      加密安全，很难劫持，交易数据加密</p>
 <p>Get请求<br>一、安装Okhttp3的方式是在pom.xml文件中添加依赖</p>
 <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
@@ -455,382 +459,30 @@ System.out.println(myOrderContent);</code></pre>
 <p>  }<br>}<br>特别说明<br>1.注释1中账户和授权码改为你的QQ号和刚才申请保存的授权码<br>2.注释2中 message.setRecipients可以设置多个收件人信息。用逗号分割多个收件人<a href="mailto:&#x78;&#x78;&#120;&#120;&#64;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;">&#x78;&#x78;&#120;&#120;&#64;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;</a> , xxx×@126.com<br>3.所有xxxx都改为自己的邮箱地址，否则你看不到邮件内容哦。<br>4.只修改红色部分</p>
 <p>查询城市代号<br><a target="_blank" rel="noopener" href="http://www.weather.com.cn/%E8%BE%93%E5%85%A5%E5%9F%8E%E5%B8%82%E5%8D%B3%E5%8F%AF%E6%9F%A5%E8%AF%A2http://www.weather.com.cn/weather1d/101190401.shtml#input%E7%9C%8B%E7%BD%91%E5%9D%80%EF%BC%8C%E5%85%B6%E4%B8%AD101190401%E5%B0%B1%E6%98%AF%E5%9F%8E%E5%B8%82%E4%BB%A3%E5%8F%B7">http://www.weather.com.cn/输入城市即可查询http://www.weather.com.cn/weather1d/101190401.shtml#input看网址，其中101190401就是城市代号</a><br>查询城市天气：<br>API<a target="_blank" rel="noopener" href="http://www.weather.com.cn/data/sk/101210106.html">http://www.weather.com.cn/data/sk/101210106.html</a></p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/24/java%E5%AF%B9%E8%B1%A1/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/08/24/java%E5%AF%B9%E8%B1%A1/" class="post-title-link" itemprop="url">java对象</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2020-08-24 10:27:11 / Modified: 10:28:03" itemprop="dateCreated datePublished" datetime="2020-08-24T10:27:11+08:00">2020-08-24</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>修饰符    同类    同包    不同的包<br>public    有权限    有权限    有权限<br>Protected    有权限    有权限    无权限<br>默认    有权限    有权限    无权限<br>private    有权限    无权限    无权限<br>正方形：private；圆形：public；菱形protected；</p>
-<p>封装：【getter，setter规范】<br>get+属性名称（属性名称首字母大写）用于获取属性；<br>public String getName(){return this.name;}<br>set+属性名称（属性名称首字母大写）用于设置属性；<br>public void setName(String name){this.name = name;}</p>
-<p>常量<br>public class SchoolService{<br> // 学校数据的常量<br>  public static ArrayList<School> schools = new ArrayList&lt;&gt;(); }<br>public class SchoolServiceTest{</p>
-<p>  public static void main(String[] args){<br>    School school = new School();<br>    school.setId(“1”);<br>    school.setName(“北京大学”);<br>    // 存储数据<br>SchoolService.schools.add(school);}}</p>
-<p>final表示不会修改：public static final String USER_KEY = “m_key”;</p>
-<p>如果UML图有下划线+static<br>public class Monkey extends Animal{}</p>
-<p>实例化 dog 对象<br>    Dog d = new Dog();///////////////// Animal d = new Dog();<br>    d.setName(“小灰”);<br>    d.setAge(3);<br>System.out.println(d.getName()+”—“+d.getAge());</p>
-<p>调用父类中的语句：super.eat()【eat()是父类中的一个函数】</p>
-<p>public class CustomFile{<br>  // 存储文件路径的变量<br>  public String filePath;<br>  // 存储文件后缀变量，通过后缀来区分文件类型<br>  public String ext;</p>
-<p>  // 声明一个构造函数，接受文件路径<br>  public CustomFile(String filePath){<br>    //给类变量 filePath 赋值<br>    //this代表的是当前类的实例<br>    this.filePath = filePath;<br>  }</p>
-<p>  /**</p>
-<ul>
-<li>获取文件名称</li>
-<li>/<br>public String getName(){<br>// 比如文件路径是 /Users/mac/work/face.png<br>// 把文件路径分隔成数组（分隔符是 / ）<br>// 数组的最后一位就是文件名<br>String[] paths = filePath.split(“/“);<br>// 数组的最后一位需要减1，因为数组是从索引0开始的。<br>return  paths[paths.length-1];<br>}<br>}<br>Super(filePath)</li>
-</ul>
-<p>接口：public interface LoginService<br>{String getLoginPageUrl();}<br>单个接口实例化：<br>public class RoleService implements RoleService{<br>Public void addRole(Role role){}<br>Public ArrayList<Role>getRoles(){}}<br>规则：①接口定义的方法在实现类里必须要全部实现，而且方法签名要一模一样（同意的方法名称，方法参数，方法返回值）<br>      ②由于接口定义的方法都是public，所以实现的类的方法控制修饰符也必须是public<br>多个接口实例化：<br>public class RoleServiceImpl implements RoleService,EchoService{<br>public void addRole(Role role){}<br>public ArrayList<Role>getRoles(){return null)<br>public void echo(){}}<br>实例化接口：（不可以EchoService echo=new EchoService()）<br>正确如下：<br>Public class RoleService {<br>Public static void mian(String args){<br>RoleService roleService =new RoleServiceImpl();<br>RoleService echoService = (EchoService)roleService;}}</p>
-<p>命名：在service包下命名为com.youkeda.service.impl.RoleServiceImpl</p>
-<p>ArrayList<Role> roles = roleService.getRoles();<br>Role lastRole = roles.get(roles.size()-1);<br>System.out.println(lastRole.getName()+”:”+lastRole.getDesc());</p>
-<p>Map/HashMap:<br>import java.util.Map;<br>import java.util.HashMap;<br>// key value 得是 Java 类型<br>Map&lt;key,value&gt; map = new HashMap&lt;&gt;();<br>Map&lt;Integer,String&gt; map = new HashMap&lt;&gt;();<br>map.put(1,”Monday”);<br>map.put(2,”Tuesday”);<br>map.put(3,”Wednesday”);<br>map.put(4,”Thursday”);<br>map.put(5,”Friday”);<br>map.put(6,”Saturday”);<br>map.put(7,”Sunday”);</p>
-<p>String weekText = map.get(3);<br>int size = map.size();</p>
-<p> for (Map.Entry&lt;Integer,String&gt; entry : map.entrySet()){<br>System.out.println(“Key = “ + entry.getKey() +”, Value = “ + entry.getValue());}</p>
-<p>List<String> strings = new ArrayList&lt;&gt;();<br>for(String str : strings){System.out.println(str);}</p>
-<p>异常：try{}           catch (NullPointerException e){}<br>等同于try{}           catch (Exception e) {}</p>
-<p>不需要import：java.lang.Exception、java.lang.NullPointerException<br>常见的异常类：<br>①IOExpetion：操作输入流和输出流时可能出现的异常<br>②ArithmeticException数学异常。如果把整数除以0，就会出现这种异常int a=12/0；<br>③NullPointerException空指针异常。当引用变量为null时，试图访问对象的属性或方法，就会出现这种异常，例如:<br>String d = null;           system.out.println(d.length());<br>④ArraylndexOutOfBoundsException下标越界异常,—般出现在数组中，比如<br>int[]array = new int[4];           array[7]=1;<br>⑤ClassCastException,当类型转化失败的时候就会出现该异常<br>⑥lllegalArgumentException,非常参数异常，可以用来检查方法的参数是否合法<br>⑦NumberFormatException:在处理字符串和数字的转换中经常会遇到</p>
-<p>抛出异常：throw new IllegalArgumentException(“姓名不能为空”);<br>try {}<br>catch (Exception e){}<br>举例：<br>public static int getInt(String str){<br>    if(str == null){throw new IllegalArgumentException(“姓名不能为空”);}<br>    return Integer.parseInt(str);}</p>
-<p> public static int getInt(String str) throws Exception {<br>   if (str == null) {throw new Exception(“姓名不能为空”); }<br>   return Integer.parseInt(str);</p>
-<p>一般的抛出异常：（一定要申明+捕获）<br>public class ExceptionTest8 {<br>    public static void main(String[] args) {<br>        int num = 0;<br>try { num = getInt(null);}<br>catch (Exception e) {System.out.println(e.getMessage()); }【try{}catch(){}是捕获的意思】<br>        System.out.println(num);}</p>
-<p>public static int getInt(String str) throws Exception {【throws Exception是申明的意思】<br>        if (str == null) { throw new Exception(“姓名不能为空”);}<br>        return Integer.parseInt(str);}}</p>
-<p>Finally的用法：<br>public void work() throws LeaveEarlyException {<br>    try {<br>      开门<br>      工作 8个小时 // 可能会抛出异常 DiseaseException<br>      关门} catch (DiseaseException e){<br>      throw new LeaveEarlyException();<br>    } finally{<br>      关门<br>    }<br>}</p>
-<p>自定义异常：<br>public class ParamNullException extends Exception {<br>  public ParamNullException() { }<br>  public ParamNullException(String msg) {super(msg);}}</p>
-<p>// 声明 user 变量<br>User user = null;<br>try {user = userService.login(“xihongshi”, null);<br>} catch (ParamNullException e) {<br>System.out.println(e.getMessage());}}</p>
-<p>访问实例内部类：A.b tool = new B().newB();【A为外部类，B为内部类】<br>静态内部类：内部类加static关键词（static放在class之前）<br>          //引用import com.youkeda.util.OuterUtil.InnerTool;<br>          //内部类的实例化 InnerTool tool = new InnerTool();</p>
-<p>匿名类：<br>public class ATest {<br>public static void main(String[] args){<br>A a = new A(){【注意这里没有分号；】<br>public void method(){System.out.println(“执行内部类”);}};【红色部分为要执行的函数，注意蓝色部分最后有个；】<br>a.method();}}</p>
-<p>匿名类之继承父类<br>public class Sub {<br>public void print(){}}【蓝色为父类】</p>
-<p>public class SubTest {<br>  public static void main(String[] args){<br>    Sub sub = new Sub(){<br>       public void print(){<br>         System.out.println(“执行内部类”);}};<br>sub.print();}}【继承父类】</p>
-<p>抽象类：【父类】// 定义一个武器的抽象类<br>public abstract class Weapon{<br>  // 抽象方法：攻击<br>  public abstract void attack();<br>}<br>抽象类的子类<br>public class GoldenBar extends Weapon {<br>  public void attack(){<br>    System.out.println(“使用金箍棒进行劈一棍”);<br>  }<br>}</p>
-<p>Default关键字：public interface Vehicle {<br>default void print(){<br>System.out.println(“我是一辆车!”);}}</p>
-<p>关系：<br>①聚合关系：（公司类+员工类）【形状：空菱形】<br>例如public class Company {private List<Employee> employees;}<br>public class Employee {private String name;}</p>
-<p>②组合关系：（汽车和引擎）【形状：实心菱形】<br>例如public class Car {<br>    // 实例化一个不可变的属性 engine<br>    private final Engine engine = new Engine();}</p>
-<p>public class Engine {private String type;}<br>③依赖关系：（UserService和User）【形状：箭头；线为虚线】<br>④继承/实现关系：父类子类；【形状：箭头，头部是空心】</p>
-<p>List和数组之间的互换：<br>import java.util.Arrays;【PS：import java.util.*;可以把同一个包下的类导入】<br>import java.util.List;<br>    Integer[] a = { 10, 20, 15, 22, 35 };<br>    List<Integer> lists = Arrays.asList(a);【Arrays.asList()的参数值必须是对象数组】<br>List<String> lists = Arrays.asList(“小王”,”小明”);</p>
-<p>List转换成为数组：<br>{List<Integer> al = new ArrayList<Integer>();<br>al.add(10);al.add(20);al.add(30);<br>// 转化为数组<br>Integer[] arr = al.toArray(new Integer[]{});</p>
-<p>List转字符串：String.join(“split”,list)<br>List<String> list = Arrays.asList(“Geeks”, “ForGeeks”, “GeeksForGeeks”);<br>// 转化集合为字符串， 使用 <code>,</code> 分割<br>String a = String.join(“,”, list);【输出结果是: Geeks,ForGeeks,GeeksForGeeks】</p>
-<p>动态数组升序Arrays.sort():<br>import java.util.Arrays;<br>Integer[] a = { 10, 20, 15, 22, 35 };<br>Arrays.sort(a);<br>System.out.println( Arrays.toString(a));【输出结果：[10, 15, 20, 22, 35]】<br>//其他的排序方法：<br>boolean[] boolArr = new boolean[] { true, true, false, true };<br>byte[] byteArr = new byte[] { 10, 20, 30 };<br>char[] charArr = new char[] { ‘g’, ‘e’, ‘e’, ‘k’, ‘s’ };<br>double[] dblArr = new double[] { 1, 2, 3, 4 };<br>float[] floatArr = new float[] { 1, 2, 3, 4 };<br>int[] intArr = new int[] { 1, 2, 3, 4 };<br>long[] lomgArr = new long[] { 1, 2, 3, 4 };<br>Object[] objArr = new Object[] { 1, 2, 3, 4 };<br>short[] shortArr = new short[] { 1, 2, 3, 4 };</p>
-<p>System.out.println(Arrays.toString(boolArr));<br>System.out.println(Arrays.toString(byteArr));<br>System.out.println(Arrays.toString(charArr));<br>System.out.println(Arrays.toString(dblArr));<br>System.out.println(Arrays.toString(floatArr));<br>System.out.println(Arrays.toString(intArr));<br>System.out.println(Arrays.toString(lomgArr));<br>System.out.println(Arrays.toString(objArr));<br>System.out.println(Arrays.toString(shortArr));<br>//结果：<br>[true, true, false, true]<br>[10, 20, 30]<br>[g, e, e, k, s]<br>[1.0, 2.0, 3.0, 4.0]<br>[1.0, 2.0, 3.0, 4.0]<br>[1, 2, 3, 4]<br>[1, 2, 3, 4]<br>[1, 2, 3, 4]<br>[1, 2, 3, 4]</p>
-<p>自定义排序static <T> void sort(T[] a, Comparator&lt; super T&gt; c):<br>import java.util.*;<br>Integer[] intArr = { 10, 20, 15, 22, 35 };<br>降序：Arrays.sort(intArr, new Comparator<Integer>(){<br>public int compare(Integer o1, Integer o2){<br>return o2-o1;}});<br>升序： Arrays.sort(intArr, new Comparator<Integer>(){<br>public int compare(Integer o1, Integer o2){<br>return o1-o2;}});</p>
-<p>集合排序：public class Student {<br>    private int rollNo;<br>    private String name;<br>    private String address;</p>
-<pre><code>// 构造函数
-public Student(int rollNo, String name,String address)&#123;
-    this.rollNo = rollNo;
-    this.name = name;
-    this.address = address;
-&#125;
-// 省略了 getter、setter
-
-// 重写 toString 方法，用于后面的打印
-public String toString()&#123;
-    return this.rollNo + &quot; &quot; + this.name +&quot; &quot; + this.address;
-&#125;</code></pre>
-<p>}</p>
-<p>排序测试类：<br>升序：import java.util.*;<br>public class ListSortTest {<br>  public static void main (String[] args) {<br>    List<Student> ar = new ArrayList<Student>();<br>    ar.add(new Student(111, “bbbb”, “london”));<br>    ar.add(new Student(131, “aaaa”, “nyc”));<br>    ar.add(new Student(121, “cccc”, “jaipur”));</p>
-<pre><code>System.out.println(&quot;原始集合&quot;);
-for (int i=0; i&lt;ar.size(); i++) &#123;
-  System.out.println(ar.get(i));
-&#125;
-
-// 实现升序排序
-Collections.sort(ar, new Comparator&lt;Student&gt;()&#123;
-  public int compare(Student a, Student b) &#123;
-    // 第一个参数的学号 &gt; 第二个参数的学号
-    return a.getRollNo() - b.getRollNo();
-  &#125;
-&#125;);
-
- System.out.println(&quot;\n排序后的集合&quot;);
-   for (int i=0; i&lt;ar.size(); i++) &#123;
-        System.out.println(ar.get(i));
-   &#125;
-&#125;</code></pre>
-<p>}</p>
-<p>降序：// 实现降序排序<br>Collections.sort(ar, new Comparator<Student>(){<br>    public int compare(Student a, Student b) {<br>    // 第二个参数的学号 &gt; 第一个参数的学号<br>    return b.getRollNo() - a.getRollNo();<br>    }<br>});</p>
-<p>集合删除（结果是集合）：.remove(3);【3代表集合中第三个元素】<br>集合合并（结果是list1集合）：list1.addAll(list2);【将list2合并到list1上面】<br>截取（结果是保留list集合中的第二和第四的元素）List<String> list2=list.subList(2, 4);</p>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/08/24/java%E5%AF%B9%E8%B1%A1/" rel="prev" title="java对象">
+      <i class="fa fa-chevron-left"></i> java对象
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/17/youkeda0817/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/08/17/youkeda0817/" class="post-title-link" itemprop="url">youkeda0817</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2020-08-17 11:02:52 / Modified: 11:03:21" itemprop="dateCreated datePublished" datetime="2020-08-17T11:02:52+08:00">2020-08-17</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>源代码格式：.java<br>Java的文件名：首字母大写，不能空格，英文（最好不要数字）如：User.java、School.java、Book.java<br>代码：<br>public class HelloWorld {<br>  public static void main(String[] args) {<br>    System.out.println(“Hello World”);<br>  }<br>}</p>
-<p>代码注释：<br>/**<br>*我是</p>
-<ul>
-<li>我是块注释</li>
-<li>/<br>行注释：//</li>
-</ul>
-<p>声明字符串变量：String say=””;<br>整形：int say；(小整数：int；大整数：Long在最后一个数字后面l；浮点数：double）<br>布尔：boolean ispass=true/false；<br>随机函数：double a = Math.random();(a在0~1)<br>整形转换语句：int nValue = (int) (value*10);</p>
-<p>If(){}<br>else if(){}<br>else if(){}<br>Else</p>
-<p>retuen:终端，跳出</p>
-<p>// 声明一个 int 数组的变量，数组大小为6<br>int[] numbers = new int[6];</p>
-<p>计算长度（输出为int型的数字）数组：.length;////字符串：.length（）<br>赋值：String[] tables = new String[]{“张三”,”李四”, “王五”};</p>
-<p>for(int i = 0; i &lt; tables.length; i++)     String name = tables[i];<br>等同于：for (String name : tables) {}</p>
-<p>提取字符串的字（结果是字符串）：char str = message.charAt(0);<br>去除字符串中的空格（结果是字符串）：String newStr = str.trim();</p>
-<p>判断文本中是否有字符串（-1没有////正常数字则表示有）：.indexOf(“Java”);<br>第二次索引的方法：.indexOf(“字符串”,”开始索引值”)<br>取出字符（结果是字符串）：.substring(index+4);////substring(index+4,index+7)<br>判断开头内容（判断条件）：.startsWith(“https”)；<br>判断结尾内容（判断条件）：.endsWith(“.doc”)<br>文本替换（结果是字符串）：.replaceAll(“要替换的值”,”新值”)</p>
-<p>字符串“/n”转换成字符串数组（变成数组）：.split(“\n”);<br>字符串“/|*”转换成字符串数组（变成数组）：.split(“\|”)<br>小写变大写（结果是全部大写的字符串）：.toUpperCase();<br>字符串比较（结果是boolean型）：.equals(“”)；<br>字符串转换成数字（数字）：Integer.parseInt(text)【括号里面填写要转换的内容】<br>数字转换成字符串（字符串）:String.valueOf(100)【括号里面填写要转换的内容】///””+a</p>
-<p>import java.time.LocalDate;<br>import java.time.format.DateTimeFormatter;</p>
-<p>输出当时时间：LocalDate time = LocalDate.now();<br>System.out.println(time.toString());<br>带格式的输出当前时间：DateTimeFormatter df = DateTimeFormatter.ofPattern(“yyyy年MM月dd日”);<br>String timeStr = df.format(time);</p>
-<p>年：int year = time.getYear();<br>月：int month = time.getMonth().getValue();<br>日：int day = time.getDayOfMonth();<br>星期：int dayOfWeek = time.getDayOfWeek().getValue();</p>
-<p>字符串转换成LocalDate型（输出字符串类型为2019-01-01）：LocalDate date2 = LocalDate.parse(date);【String date = “2019-01-01”;】<br>字符串转换成LocalDate型（字符串类型不是为2019-01-01）DateTimeFormatter df = DateTimeFormatter.ofPattern(“yyyy/MM/dd”);<br>LocalDate date2 = LocalDate.parse(date,df);<br>System.out.println(date2.toString());【String date = “2019/01/01”;】</p>
-<p>加天数（.前面的类型也是LocalDate；输出类型为LocalDate）：.plusDays(天数)；<br>加1天：.plusDays(1)<br>加1周：.plusWeeks(1)<br>加1月：.plusMonths(1)<br>加1年：.plusYears(1)<br>减1天：.minusDays(1)<br>减1周：.minusWeeks(1)<br>减1月：.minusMonths(1)<br>减1年：.minusYears(1)</p>
-<p>是否在当天之前：boolean isBefore =a.isBefore(b);【a，b是LocalDate类型的】<br>是否在当天之后：boolean isAfter =now.a.isAfter(b);<br>判断是否是当天：boolean sameDate =a.isEqual(b);</p>
-<p>创建：House.jaca:文件名：<br>①类名+java；<br>②首字母大写（大驼峰类型命名）不能有中文和特殊字符（#&amp;@*）只能数字+字母<br>③public class House {}<br>④路径：src/main/java/创建的内容（House.java）</p>
-<p>src/main/java/com/youkeda/tes文件名为：com.youkeda<br>导入不同包的对象：import com.youkeda.model.House;</p>
-<p>实例化：House youHouse = new House();<br>youHouse.turnLightsOn();<br>herHouse.color = “red”;</p>
-<p>public House(String color)    { this.color = color; }<br>  House hourse = new House(“red”);</p>
-<p>import java.io.File<br>// 实例化一个文件实例，指向到 d:/img/a.png 文件<br>File file = new File(“d:/img/a.png”);<br>//根据parent路径名字符串和child路径名字符串创建一个新 File 实例<br>File(String parent, String child)<br>//通过给定的父文件对象和子路径名字符串创建一个新的File实例<br>File(File parent, String child)<br>// 返回字节数<br>public long length()<br>//得到文件大小的字节数<br>long size = file.length();</p>
-<p>计算图片大小：import java.io.File;<br>File file = new File(“chaoyue.jpeg”);<br>long size = file.length() </p>
-<p>import java.util.ArrayList;<br>public class ArrayListTest1{<br>  public static void main(String[] args){<br>ArrayList<String> strs = new ArrayList&lt;&gt;();【String可以变成String，Integer、House等，strs是名字】<br>strs.add(“张三”);}}【】</p>
-<p>for( 集合变量的类型 变量名称 : 集合变量 )<br>for(String str : strs){System.out.println(str);} 【str是名字，可以随意更改，strs是上面赋值的】<br>等同于：<br>int size = strs.size();<br>for(int i=0;i&lt;size;i++){<br>      String str = strs.get(i);<br>      System.out.println(str);<br>}</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/11/youkeda0811/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/08/11/youkeda0811/" class="post-title-link" itemprop="url">youkeda0811</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2020-08-11 18:06:56 / Modified: 18:08:07" itemprop="dateCreated datePublished" datetime="2020-08-11T18:06:56+08:00">2020-08-11</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>绑定本地仓库到Github<br>1.初始化为git仓库：git init<br>2.查看绑定仓库情况：git remote -v（只有这个命令显示空白，我们才可以继续绑定）<br>3.绑定远程仓库的命令：git remote add origin 仓库地址（GitHub上面的SSH）<br>4.查看绑定仓库情况：git remote -v（确定绑定成功）<br>5.删除绑定仓库：git remote remove origin</p>
-<p>Ctrl+c可以退出输入</p>
-<p>创建博客文件夹：hexo init blog（其中blog是博客文件夹的名字）<br>安装发布工具：进入blog目录（cd blog）：npm install hexo-deployer-git –save<br>修改配置文件：找到_config.yml文件：<br>theme: landscape<br>deploy:<br>  type: git<br>  repository: 你的GitHub仓库地址<br>  branch: master</p>
-<p>Hexo提交：<br>1.hexo clean：hexo clean<br>2.Hexo generate：hexo g<br>3.Hexo deploy：hexo d</p>
-<p>1.创建博客文件：hexo new 博客名（例如hexo new hello，则会生成hello.md的文件）文件的位置：source/_post<br>2.更换主题next：默认主题是landspace<br>①下载新的主题：git clone <a target="_blank" rel="noopener" href="https://gitee.com/xiaoyebing/hexo-theme-next.git">https://gitee.com/xiaoyebing/hexo-theme-next.git</a> themes/next<br>②打开_config.yml文件，将配置中的theme: landscape改成theme: next<br>③执行上面的hexo提交命令（注意：一定要在blog里面执行）</p>
-<p>Branch的简单命令<br>1.创建分支：git branch 分支名（例如git branch dev）<br>2.切换到新的分支：git checkout dev（dev是分支的名字）<br>***1+2合起来一起用的命令：git checkout -b dev</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/11/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/08/11/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-08-11 17:55:08" itemprop="dateCreated datePublished" datetime="2020-08-11T17:55:08+08:00">2020-08-11</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
