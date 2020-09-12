@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.0.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Muse","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false};
+  </script>
+
+  <meta name="description" content="HTML标签 就是一个典型的HTML标签。 HTML标签有以下特点: 1.由尖括号包围关键词组成，比如: 、 、 、等; 2.通常成对出现，比如和，第一个就是开始标签，第二个就是结束标签 3.并不是所有标签都有对应的结束标签，比如、等，它们往往是单独呈现的; 注意:在HTML中标签名是大小写不敏感，和span ④并集选择器：.box,p,h3,.phone{} 高级选择器的优先级：id选择器（10">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java前端基础">
+<meta property="og:url" content="http://yoursite.com/2020/09/12/java%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="HTML标签 就是一个典型的HTML标签。 HTML标签有以下特点: 1.由尖括号包围关键词组成，比如: 、 、 、等; 2.通常成对出现，比如和，第一个就是开始标签，第二个就是结束标签 3.并不是所有标签都有对应的结束标签，比如、等，它们往往是单独呈现的; 注意:在HTML中标签名是大小写不敏感，和span ④并集选择器：.box,p,h3,.phone{} 高级选择器的优先级：id选择器（10">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/2020/09/12/java%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/网址">
+<meta property="article:published_time" content="2020-09-12T02:06:24.000Z">
+<meta property="article:modified_time" content="2020-09-12T02:06:56.953Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2020/09/12/java%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/网址">
+
+<link rel="canonical" href="http://yoursite.com/2020/09/12/java%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>java前端基础 | Hexo</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <main class="main">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Hexo</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text"> 、 、等;
+2.通常成对出现，比如和，第一个就是开始标签，第二个就是结束标签
+3.并不是所有标签都有对应的结束标签，比如、等，它们往往是单独呈现的;
+注意:在HTML中标签名是大小写不敏感，和1.
+(1).作用:告知浏览器该页面文件的文档类型，指示web浏览器使用哪个HTML版本编写页面
+(2).位置:&lt;!DOCTYPE&gt;声明必须是HTML文档的第一行，位于标签之前。
+(3).&lt;!DOCTYPE&gt;声明对大小写不敏感；没有结束标签。
+2. …
+(1).此元素可告知浏览器其自身是一个HTML文档。
+(2)，chtal&gt;与&lt;&#x2F;html〉标签限定了文档的开始点和结束点，在它们之间是文档的头部和主体。文档的头部由head标签定义，而主体由标签定义。
+(3).lang属性(语言属性)︰当搜索引擎或者浏览器拿到语言属性后，有可能做一些针对指定语言的辅助操作，’en’表示英文。
+3.标签属性
+(1).标签可以拥有零个或多个标签属性，注意:标签属性与标签名称、标签属性与标签属性之间需用一个空格隔开。
+(2).标签属性可以赋予标签更多的信息，标签属性通常是以key&#x3D;”value”即名称&#x3D;”值”的形式出现。
+(3).常见的标签属性有:class、id、style、lang、src等。
+4.文档的头部…
+(1).head元素定义文档的头部，我们通常在这里引用样式表、提供元信息等。
+(2).文档的头部中的…&lt;&#x2F;title〉定义文档的标题，在网页上体现为网页标签的标题。
+(3).一个元素必须包含且只能包含一个元素。
+5.文档的主体. ..
+(1).body元素定义文档的主体，包含文档的所有内容(比如文本、超链接、图像、表格和列表等等）。
+注释
+MDN：https:&#x2F;&#x2F;developer.mozilla.org&#x2F;zh-CN&#x2F;docs&#x2F;Web&#x2F;HTML
+标题      段落     重点内容     内联标签  
+图片
+链接标签：优课达
+target属性是”_self”原来界面、“_blank&quot;（新的界面）、&quot;_parent”、&quot;_top&quot;四选一
+
+列表：
+①无序
+②有序
+
+
+注意：action表单信息提交的地方；method：GET&#x2F;POST规定如何发送表单信息
+
+普通文本框
+占位文本:
+输入框名字：
+输入框的值：
+不可修改输入框【readonly；disabled】：
+
+属性    disabled    readonly
+对象    所有表单元素    input和textarea
+作用    使文本框不能输入，当表单以POST或GET的方式提交时，使用了disabled的元素的值不会被传递出去    仅使文本框不能输入
+外观*    使文本框变灰    外观没有变化
+外观*:在不同浏览器中输入框的外观可能会有区别，因此”readonly”和”disabled”这两种输入框在外观上的差别可能与上表所述有所不同。
+多行文本框【注意：rows高度；cols宽度】
+&lt;textarea
+  name&#x3D;”sign”
+  rows&#x3D;”5”
+  cols&#x3D;”30”
+  placeholder&#x3D;”请输入个性签名”
+
+
+
+密码输入框：
+单选框+的使用
+
+扩大点击的范围（点在男，女文字上也可以被选中）
+ 男 
+等同于：
+
+男
+复选框（多选）
+【注意：属于同一道“多选题”的每个复选框元素，应该具有相同的name】举例如下
+ 编程
+ 其他 
+选项菜单：
+单选
+
+  请选择职业
+
+多选：
+
+  请选择职业
+
+按钮：注册
+类型    作用
+text    单行输入框
+number    用于输入浮点数的控件
+password    一个值被遮盖的单行文本字段。使用maxlength 指定可以输入的值的最大长度
+checkbox    复选框。必须使用value属性定义此控件被提交时的值。使用checked属性指示控件是否被选择。也可以使用indeterminate指示复选框在一种不确定状态(大多数平台上，显示为一条穿过复选框的水平线)。
+radio    单选按钮。必须使用value属性定义此控件被提交时的值。使用checked 必须指示控件是否缺省被选择。在同一个”单选按钮组“中，所有单选按钮的name属性使用同一个值;—个单选按钮组中是，同一时间只有一个单选按钮可以被选择。
+CSS的使用：
+字体大小：font-size: 12px;
+字体的粗细：font-weight: 200;
+值可以是 100，200，300，400，500，600，700，800，900 中的任何一个,或者可以用英文代替，normal（正常粗细），lighter(细)，bold（粗），bolder（更粗）
+字体颜色：（四种方式）
+①英文字母形式：color:black(blue;red)
+②十六进制颜色（后面跟三个数字，范围是00-FF）：color：#DAE8FC
+③rgb形式（三个数字的范围0-255）：color：rgb（253,217,106）
+④rgba形式（在rgb基础上加一位，透明度范围0-1）：color：rgba（253,217,106,0.3）
+文字位置（对齐方式）：text-align: left;       text-align: right;      text-align: center;
+行高：line-height:30px;
+字间距：letter-spacing: 30px;
+字体：font-family: sans-serif;         &#x2F;&#x2F;&#x2F;&#x2F;font-family: ‘Goudy Bookletter 1911’, sans-serif；
+去除下划线：text-decoration: none;
+增加下划线：
+去除小黑点：list-style:none
+CSS引入方式：
+①内部样式：【在中放入下面语句】     h3{}      
+②外部样式：中放入下面语句：
+CSS注释：&#x2F;CSS的注释内容&#x2F;
+路径：返回上一层：..&#x2F;进入css文件夹：ccs&#x2F;
+类选择器：
+①定义：优课达【article是类名，可以改变】
+②使用：.articl
+③【可以定义多个名字，中间用空格隔开】
+id选择器：
+①定义：这是一段文字
+②使用：#p-item
+高级选择器
+①后代选择器：【改变子，孙，曾孙所有的后代】：p a     
+父子孙曾孙曾曾孙
+②交集选择器：a.special
+③子选择器：p&gt;span
+④并集选择器：.box,p,h3,.phone{}
+高级选择器的优先级：id选择器（100）&gt;类选择器（10）&gt;标签选择器（1）
+
+盒模型-content【默认高度为0px】.box{width:200px; height:100px; background-color:purple;}
+
+百分百尺寸：width: 60%;       height: 20%;
+
+Padding的用法：
+padding: 20px 30px 20px 10px;【第一个值是上，第二个值是右，第三个值如果没有，就和第一个值保持一致，第四个值如果没有就和第二个值保持—致。上右下左】
+padding-top:&#x2F;&#x2F;bottom:&#x2F;&#x2F;left:&#x2F;&#x2F;right:
+box-sizing(content-box-默认;border-box;）
+①content-box尺寸计算公式:：box-sizing: content-box;
+width &#x3D;内容的宽度                      height &#x3D;内容的高度
+②border-box尺寸计算公式:box-sizing: border-box;
+width &#x3D; border + padding +内容的宽度   height &#x3D; border + padding +内容的高度
+边框：【solid是实线 dashed是虚线】border: 1px solid black;
+border-top:&#x2F;&#x2F;right:&#x2F;&#x2F;bottom:&#x2F;&#x2F;left:
+无边框：border-bottom: none;
+圆角：border-radius: 12px;
+border-top-left-radius:
+border-top-right-radius:
+border-bottom-left-radius:
+border-bottom-right-radius: 
+阴影： x偏移量 | y偏移量 | 阴影模糊半径 | 阴影扩散半径 | 阴影颜色
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+×偏移量:在×轴上移动，向右为正
+y偏移量:在y轴上移动，向下为正
+阴影模糊半径:就是边线的清晰度
+阴影扩散半径:就是向外伸展
+阴影颜色:就是矩形下面那个矩形的背景色。
+margin：
+①总写margin: 20px;
+②分开写margin-top: &#x2F;&#x2F;margin-right: &#x2F;&#x2F;margin-bottom: &#x2F;&#x2F;margin-left:;
+设置两个盒子之间的垂直距离：：margin-bottom: 50px;
+盒子左右居中：【使盒子在父盒中左右居中，一定要有宽度】
+width:200px;+margin:0 auto;
+display:block&#x2F;none
+块元素display: block;
+行内元素display: inline;
+隐藏元素：display: none;
+display:inline
+可以设置padding，不要当成块元素使用
+可以设置左右margin，不要设置上下margin（没效果）
+dispalay：inline-block同一行显示的块元素
+去除空格的三种方法：
+①去除回车，将div标签写在一行：
+
+
+→div {      width: 200px;     height: 50px;     display: inline-block;}
+②父元素添加word-spacing: -50px;（一定要小于-20px）
+③父元素添加font-size: 0px;
+
+Position static：不能使用left, top, right, bottom
+Position relative:   left: 50px;&#x2F;top&#x2F; right&#x2F;bottom
+Position absolute:left: 50px;&#x2F;top&#x2F; right&#x2F;bottom
+Position fixed:固定；【根据浏览器的边框固定】
+  文字 
+图层z-index:1;
+固定文字在最上方：position: sticky;+z-index: 1;
+
+Float：float: left;           float: right;
+nav:一般用于表示此区块是导航区域
+main:一般用户表示此区块是网页的主体区域
+Figma:https:&#x2F;&#x2F;www.figma.com&#x2F;     &amp;#49;&amp;#x33;&amp;#55;&amp;#49;&amp;#x36;&amp;#x31;&amp;#x37;&amp;#55;&amp;#x31;&amp;#x34;&amp;#x40;&amp;#x71;&amp;#x71;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;  sl917428173
+清理浏览器自己的格式
+html,body {height: 100%;margin: 0;}
+ul,li {margin: 0; padding: 0;}
+li {list-style: none;}
+h1,h2 {margin: 0;}
+p {margin: 0;padding: 0;}
+模态框：
+①
+position: fixed; left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(0, 0, 0, 0.7);
+②完成模态框内部：
+    
+.modal {background-color: #fff; width: 300px;  height: 150px;  border-radius: 20px;}
+.modal &gt; img {display: block;  width: 200px;  margin: 39px auto; }
+margin-top &#x3D; (modal高度- img高度)&#x2F;2
+③完成模态框布局：
+.modal {position: fixed;            left: 50%;        top: 50%; 
+margin-left: -自身宽度的一半          marin-top: -自身高度的一半}
+
+搜索框：
+①完成搜索框
+
+    
+      
+      
+    
+    
+  
+
+.right {float: right;}
+.search { float: left; margin-right: 20px;}
+.search &gt; input {
+  width: 220px;
+  height: 36px;
+  margin-top: 16px; 【（外面大框架高度-input高度）&#x2F;2】
+  font-size: 12px;
+  box-sizing: border-box; 【同时设置width和padding会用到】
+  padding: 0 50px 0 15px;
+  background-color: #ededed;
+  border-radius: 18px;
+    border: none;    outline: none;}
+放大镜图标定位
+父.search {  position: relative;}
+子.search &gt; img {  position: absolute;  right: 10px;  top: 17px;
+  width: 34px;    height: 34px;}
+②完成搜索的结果（定位下面的搜索框）：
+.search-result {
+  position: absolute;       left: 0;      top: 60px;
+  padding: 0 15px;【调节左侧的距离】
+  background-color: #fff;     border-radius: 5px;
+  box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.16); }
+.search-result &gt; li {  font-size: 12px;  color: #1f2c41;
+  height: 36px;  line-height: 36px;   width: 190px;
+  border-bottom: 1px solid #f3f3f3;}
+渐变色：background: linear-gradient(to right, #95ca47 30%, #4dc891 70%);
+渐变方向
+. to right&#x2F; to left向右&#x2F;向左渐变
+. to top &#x2F; to bottom向上&#x2F;向下渐变
+to right bottom &#x2F; to right top向右下&#x2F;向右上渐变
+to left bottom &#x2F; to left top向左下&#x2F;向左上渐变
+xxxdeg xxx范围(0到360)更精确的渐变方向
+渐变位置：
+内容超出部分隐藏：overflow: hidden;
+背景图片： （要有宽度和高度）
+放置图片：background-image: url(https:&#x2F;&#x2F;style.youkeda.com&#x2F;img&#x2F;ykd-components&#x2F;logo.png);
+禁止重复：background-repeat: no-repeat;（repeat-x；repeat-y；repeat；no-repeat）
+图片居中：background-position: center;
+Background-position值：
+值    描述
+top left
+top center
+top right
+center left
+center center
+center right
+bottom left
+bottom center
+bottom right    左侧两个元素为—组—起出现，分别代表垂直和水平布局
+比如:
+background-position: top left;效果等于background-position-x: left;
+background-position-y: top;
+如果只写一个关键词，那么另一个关键词默认是center
+x% y%    第一个值是水平位置，第二个值是垂直位置。
+左上角是0%0%。右下角是100%100%。如果只写一个值，另—个值将是50%。
+xpx ypx    第—个值是水平位置，第二个值是垂直位置。
+左上角是00，单位是像素(Opx Opx)或任何其他的CSS单位。如果只写一个值，另—个值将是50%
+图片大小：background-size：
+值    描述
+cover
+满足图片长宽中较小的一方撑满屏幕。    把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
+背景图像的某些部分也许无法显示在背景定位区域中。
+contain
+满足图片长宽中较大的一方撑满屏幕。    扩展至最大尺寸，以使其宽度和高度完全适应内容区域。
+xpx ypx    手动设置宽度和高度
+x% y%    手动设置宽度和高度相对于容器的百分比
+简写：background: url(网址) no-repeat center &#x2F; contain;
+拓展：position-attachment
+https:&#x2F;&#x2F;developer.mozilla.org&#x2F;zh-CN&#x2F;docs&#x2F;Web&#x2F;CSS&#x2F;background-attachment
+Position-clip  https:&#x2F;&#x2F;developer.mozilla.org&#x2F;zh-CN&#x2F;docs&#x2F;Web&#x2F;CSS&#x2F;background-clip
+width: calc(100% - 480px);
+::placeholder {}
+border: none;
+outline: none;
+</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">标题      段落     重点内容     内联标签  
+图片
+链接标签：优课达
+target属性是”_self”原来界面、“_blank&quot;（新的界面）、&quot;_parent”、&quot;_top&quot;四选一
+
+列表：
+①无序
+②有序
+
+
+注意：action表单信息提交的地方；method：GET&#x2F;POST规定如何发送表单信息
+
+普通文本框
+占位文本:
+输入框名字：
+输入框的值：
+不可修改输入框【readonly；disabled】：
+
+属性    disabled    readonly
+对象    所有表单元素    input和textarea
+作用    使文本框不能输入，当表单以POST或GET的方式提交时，使用了disabled的元素的值不会被传递出去    仅使文本框不能输入
+外观*    使文本框变灰    外观没有变化
+外观*:在不同浏览器中输入框的外观可能会有区别，因此”readonly”和”disabled”这两种输入框在外观上的差别可能与上表所述有所不同。
+多行文本框【注意：rows高度；cols宽度】
+&lt;textarea
+  name&#x3D;”sign”
+  rows&#x3D;”5”
+  cols&#x3D;”30”
+  placeholder&#x3D;”请输入个性签名”
+
+
+
+密码输入框：
+单选框+的使用
+
+扩大点击的范围（点在男，女文字上也可以被选中）
+ 男 
+等同于：
+
+男
+复选框（多选）
+【注意：属于同一道“多选题”的每个复选框元素，应该具有相同的name】举例如下
+ 编程
+ 其他 
+选项菜单：
+单选
+
+  请选择职业
+
+多选：
+
+  请选择职业
+
+按钮：注册
+类型    作用
+text    单行输入框
+number    用于输入浮点数的控件
+password    一个值被遮盖的单行文本字段。使用maxlength 指定可以输入的值的最大长度
+checkbox    复选框。必须使用value属性定义此控件被提交时的值。使用checked属性指示控件是否被选择。也可以使用indeterminate指示复选框在一种不确定状态(大多数平台上，显示为一条穿过复选框的水平线)。
+radio    单选按钮。必须使用value属性定义此控件被提交时的值。使用checked 必须指示控件是否缺省被选择。在同一个”单选按钮组“中，所有单选按钮的name属性使用同一个值;—个单选按钮组中是，同一时间只有一个单选按钮可以被选择。
+CSS的使用：
+字体大小：font-size: 12px;
+字体的粗细：font-weight: 200;
+值可以是 100，200，300，400，500，600，700，800，900 中的任何一个,或者可以用英文代替，normal（正常粗细），lighter(细)，bold（粗），bolder（更粗）
+字体颜色：（四种方式）
+①英文字母形式：color:black(blue;red)
+②十六进制颜色（后面跟三个数字，范围是00-FF）：color：#DAE8FC
+③rgb形式（三个数字的范围0-255）：color：rgb（253,217,106）
+④rgba形式（在rgb基础上加一位，透明度范围0-1）：color：rgba（253,217,106,0.3）
+文字位置（对齐方式）：text-align: left;       text-align: right;      text-align: center;
+行高：line-height:30px;
+字间距：letter-spacing: 30px;
+字体：font-family: sans-serif;         &#x2F;&#x2F;&#x2F;&#x2F;font-family: ‘Goudy Bookletter 1911’, sans-serif；
+去除下划线：text-decoration: none;
+增加下划线：
+去除小黑点：list-style:none
+CSS引入方式：
+①内部样式：【在中放入下面语句】     h3{}      
+②外部样式：中放入下面语句：
+CSS注释：&#x2F;CSS的注释内容&#x2F;
+路径：返回上一层：..&#x2F;进入css文件夹：ccs&#x2F;
+类选择器：
+①定义：优课达【article是类名，可以改变】
+②使用：.articl
+③【可以定义多个名字，中间用空格隔开】
+id选择器：
+①定义：这是一段文字
+②使用：#p-item
+高级选择器
+①后代选择器：【改变子，孙，曾孙所有的后代】：p a     
+父子孙曾孙曾曾孙
+②交集选择器：a.special
+③子选择器：p&gt;span
+④并集选择器：.box,p,h3,.phone{}
+高级选择器的优先级：id选择器（100）&gt;类选择器（10）&gt;标签选择器（1）
+
+盒模型-content【默认高度为0px】.box{width:200px; height:100px; background-color:purple;}
+
+百分百尺寸：width: 60%;       height: 20%;
+
+Padding的用法：
+padding: 20px 30px 20px 10px;【第一个值是上，第二个值是右，第三个值如果没有，就和第一个值保持一致，第四个值如果没有就和第二个值保持—致。上右下左】
+padding-top:&#x2F;&#x2F;bottom:&#x2F;&#x2F;left:&#x2F;&#x2F;right:
+box-sizing(content-box-默认;border-box;）
+①content-box尺寸计算公式:：box-sizing: content-box;
+width &#x3D;内容的宽度                      height &#x3D;内容的高度
+②border-box尺寸计算公式:box-sizing: border-box;
+width &#x3D; border + padding +内容的宽度   height &#x3D; border + padding +内容的高度
+边框：【solid是实线 dashed是虚线】border: 1px solid black;
+border-top:&#x2F;&#x2F;right:&#x2F;&#x2F;bottom:&#x2F;&#x2F;left:
+无边框：border-bottom: none;
+圆角：border-radius: 12px;
+border-top-left-radius:
+border-top-right-radius:
+border-bottom-left-radius:
+border-bottom-right-radius: 
+阴影： x偏移量 | y偏移量 | 阴影模糊半径 | 阴影扩散半径 | 阴影颜色
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+×偏移量:在×轴上移动，向右为正
+y偏移量:在y轴上移动，向下为正
+阴影模糊半径:就是边线的清晰度
+阴影扩散半径:就是向外伸展
+阴影颜色:就是矩形下面那个矩形的背景色。
+margin：
+①总写margin: 20px;
+②分开写margin-top: &#x2F;&#x2F;margin-right: &#x2F;&#x2F;margin-bottom: &#x2F;&#x2F;margin-left:;
+设置两个盒子之间的垂直距离：：margin-bottom: 50px;
+盒子左右居中：【使盒子在父盒中左右居中，一定要有宽度】
+width:200px;+margin:0 auto;
+display:block&#x2F;none
+块元素display: block;
+行内元素display: inline;
+隐藏元素：display: none;
+display:inline
+可以设置padding，不要当成块元素使用
+可以设置左右margin，不要设置上下margin（没效果）
+dispalay：inline-block同一行显示的块元素
+去除空格的三种方法：
+①去除回车，将div标签写在一行：
+
+
+→div {      width: 200px;     height: 50px;     display: inline-block;}
+②父元素添加word-spacing: -50px;（一定要小于-20px）
+③父元素添加font-size: 0px;
+
+Position static：不能使用left, top, right, bottom
+Position relative:   left: 50px;&#x2F;top&#x2F; right&#x2F;bottom
+Position absolute:left: 50px;&#x2F;top&#x2F; right&#x2F;bottom
+Position fixed:固定；【根据浏览器的边框固定】
+  文字 
+图层z-index:1;
+固定文字在最上方：position: sticky;+z-index: 1;
+
+Float：float: left;           float: right;
+nav:一般用于表示此区块是导航区域
+main:一般用户表示此区块是网页的主体区域
+Figma:https:&#x2F;&#x2F;www.figma.com&#x2F;     &amp;#49;&amp;#x33;&amp;#55;&amp;#49;&amp;#x36;&amp;#x31;&amp;#x37;&amp;#55;&amp;#x31;&amp;#x34;&amp;#x40;&amp;#x71;&amp;#x71;&amp;#46;&amp;#x63;&amp;#111;&amp;#109;  sl917428173
+清理浏览器自己的格式
+html,body {height: 100%;margin: 0;}
+ul,li {margin: 0; padding: 0;}
+li {list-style: none;}
+h1,h2 {margin: 0;}
+p {margin: 0;padding: 0;}
+模态框：
+①
+position: fixed; left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(0, 0, 0, 0.7);
+②完成模态框内部：
+    
+.modal {background-color: #fff; width: 300px;  height: 150px;  border-radius: 20px;}
+.modal &gt; img {display: block;  width: 200px;  margin: 39px auto; }
+margin-top &#x3D; (modal高度- img高度)&#x2F;2
+③完成模态框布局：
+.modal {position: fixed;            left: 50%;        top: 50%; 
+margin-left: -自身宽度的一半          marin-top: -自身高度的一半}
+
+搜索框：
+①完成搜索框
+
+    
+      
+      
+    
+    
+  
+
+.right {float: right;}
+.search { float: left; margin-right: 20px;}
+.search &gt; input {
+  width: 220px;
+  height: 36px;
+  margin-top: 16px; 【（外面大框架高度-input高度）&#x2F;2】
+  font-size: 12px;
+  box-sizing: border-box; 【同时设置width和padding会用到】
+  padding: 0 50px 0 15px;
+  background-color: #ededed;
+  border-radius: 18px;
+    border: none;    outline: none;}
+放大镜图标定位
+父.search {  position: relative;}
+子.search &gt; img {  position: absolute;  right: 10px;  top: 17px;
+  width: 34px;    height: 34px;}
+②完成搜索的结果（定位下面的搜索框）：
+.search-result {
+  position: absolute;       left: 0;      top: 60px;
+  padding: 0 15px;【调节左侧的距离】
+  background-color: #fff;     border-radius: 5px;
+  box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.16); }
+.search-result &gt; li {  font-size: 12px;  color: #1f2c41;
+  height: 36px;  line-height: 36px;   width: 190px;
+  border-bottom: 1px solid #f3f3f3;}
+渐变色：background: linear-gradient(to right, #95ca47 30%, #4dc891 70%);
+渐变方向
+. to right&#x2F; to left向右&#x2F;向左渐变
+. to top &#x2F; to bottom向上&#x2F;向下渐变
+to right bottom &#x2F; to right top向右下&#x2F;向右上渐变
+to left bottom &#x2F; to left top向左下&#x2F;向左上渐变
+xxxdeg xxx范围(0到360)更精确的渐变方向
+渐变位置：
+内容超出部分隐藏：overflow: hidden;
+背景图片： （要有宽度和高度）
+放置图片：background-image: url(https:&#x2F;&#x2F;style.youkeda.com&#x2F;img&#x2F;ykd-components&#x2F;logo.png);
+禁止重复：background-repeat: no-repeat;（repeat-x；repeat-y；repeat；no-repeat）
+图片居中：background-position: center;
+Background-position值：
+值    描述
+top left
+top center
+top right
+center left
+center center
+center right
+bottom left
+bottom center
+bottom right    左侧两个元素为—组—起出现，分别代表垂直和水平布局
+比如:
+background-position: top left;效果等于background-position-x: left;
+background-position-y: top;
+如果只写一个关键词，那么另一个关键词默认是center
+x% y%    第一个值是水平位置，第二个值是垂直位置。
+左上角是0%0%。右下角是100%100%。如果只写一个值，另—个值将是50%。
+xpx ypx    第—个值是水平位置，第二个值是垂直位置。
+左上角是00，单位是像素(Opx Opx)或任何其他的CSS单位。如果只写一个值，另—个值将是50%
+图片大小：background-size：
+值    描述
+cover
+满足图片长宽中较小的一方撑满屏幕。    把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
+背景图像的某些部分也许无法显示在背景定位区域中。
+contain
+满足图片长宽中较大的一方撑满屏幕。    扩展至最大尺寸，以使其宽度和高度完全适应内容区域。
+xpx ypx    手动设置宽度和高度
+x% y%    手动设置宽度和高度相对于容器的百分比
+简写：background: url(网址) no-repeat center &#x2F; contain;
+拓展：position-attachment
+https:&#x2F;&#x2F;developer.mozilla.org&#x2F;zh-CN&#x2F;docs&#x2F;Web&#x2F;CSS&#x2F;background-attachment
+Position-clip  https:&#x2F;&#x2F;developer.mozilla.org&#x2F;zh-CN&#x2F;docs&#x2F;Web&#x2F;CSS&#x2F;background-clip
+width: calc(100% - 480px);
+::placeholder {}
+border: none;
+outline: none;
+</span></a></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </section>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+      <div class="main-inner">
+        
+
+        <div class="content post posts-expand">
+          
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/12/java%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          java前端基础
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-09-12 10:06:24 / Modified: 10:06:56" itemprop="dateCreated datePublished" datetime="2020-09-12T10:06:24+08:00">2020-09-12</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>HTML标签</p>
+<p>就是一个典型的HTML标签。
+HTML标签有以下特点:
+1.由尖括号包围关键词组成，比如:<p> 、<h1> 、<div> 、<span>等;
+2.通常成对出现，比如<div>和</div>，第一个就是开始标签，第二个就是结束标签
+3.并不是所有标签都有对应的结束标签，比如<input>、<img>等，它们往往是单独呈现的;
+注意:在HTML中标签名是大小写不敏感，<p>和<P〉是一样的，但是现在一般要求标签统一小写
+
+<p>1.<!DOCTYPE html><br>(1).作用:告知浏览器该页面文件的文档类型，指示web浏览器使用哪个HTML版本编写页面<br>(2).位置:&lt;!DOCTYPE&gt;声明必须是HTML文档的第一行，位于<html>标签之前。<br>(3).&lt;!DOCTYPE&gt;声明对大小写不敏感；没有结束标签。</p>
+<p>2.<html lang="en"> …</html><br>(1).此元素可告知浏览器其自身是一个HTML文档。<br>(2)，chtal&gt;与&lt;/html〉标签限定了文档的开始点和结束点，在它们之间是文档的头部和主体。文档的头部由head标签定义，而主体由<body>标签定义。<br>(3).lang属性(语言属性)︰当搜索引擎或者浏览器拿到语言属性后，有可能做一些针对指定语言的辅助操作，’en’表示英文。</p>
+<p>3.标签属性<br>(1).标签可以拥有零个或多个标签属性，注意:标签属性与标签名称、标签属性与标签属性之间需用一个空格隔开。<br>(2).标签属性可以赋予标签更多的信息，标签属性通常是以key=”value”即名称=”值”的形式出现。<br>(3).常见的标签属性有:class、id、style、lang、src等。</p>
+<p>4.文档的头部<head>…</head><br>(1).head元素定义文档的头部，我们通常在这里引用样式表、提供元信息等。<br>(2).文档的头部中的<title>…&lt;/title〉定义文档的标题，在网页上体现为网页标签的标题。<br>(3).一个<head>元素必须包含且只能包含一个<title>元素。</p>
+<p>5.文档的主体<body>. ..</body><br>(1).body元素定义文档的主体，包含文档的所有内容(比如文本、超链接、图像、表格和列表等等）。</p>
+<p>注释<!-- --><br>MDN：<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML">https://developer.mozilla.org/zh-CN/docs/Web/HTML</a></p>
+<h1>标题      <p>段落     <strong>重点内容     <span>内联标签  
+图片<img src="网址" alt="" width="" height="">
+<a>链接标签：<a href="" target="" title="">优课达</a>
+target属性是”_self”原来界面、“_blank"（新的界面）、"_parent”、"_top"四选一
+
+<p>列表：<br>①无序<ul><li></li></ul><br>②有序<ol><li></li></ol></p>
+<!-- <form>是块状标签，要注意：<form>标签不能嵌套<form>标签 -->
+<form action=""  method=""></form>
+注意：action表单信息提交的地方；method：GET/POST规定如何发送表单信息
+
+<p>普通文本框<input type="text" /><br>占位文本:<input type="text" placeholder="昵称" /><br>输入框名字：<input type="text" placeholder="昵称" name="nick" /><br>输入框的值：<input type="text" placeholder="昵称" name="nick" value="小明" /><br>不可修改输入框【readonly；disabled】：<br><input type="text" placeholder="" name="" value="" readonly /><br>属性    disabled    readonly<br>对象    所有表单元素    input和textarea<br>作用    使文本框不能输入，当表单以POST或GET的方式提交时，使用了disabled的元素的值不会被传递出去    仅使文本框不能输入<br>外观*    使文本框变灰    外观没有变化<br>外观*:在不同浏览器中输入框的外观可能会有区别，因此”readonly”和”disabled”这两种输入框在外观上的差别可能与上表所述有所不同。</p>
+<p>多行文本框【注意：rows高度；cols宽度】<br>&lt;textarea<br>  name=”sign”<br>  rows=”5”<br>  cols=”30”<br>  placeholder=”请输入个性签名”</p>
+<blockquote>
+</textarea>
+</blockquote>
+<p>密码输入框：<input type="password" name="password" placeholder="密码" /></p>
+<p>单选框+<label>的使用<br><input type="radio" name="gender" value="male" /><br>扩大点击的范围（点在男，女文字上也可以被选中）<br><label> <input type="radio" name="gender" value="male" />男 </label><br>等同于：<br><input id="male" type="radio" name="gender" value="male" /><br><label for="male">男</label></p>
+<p>复选框（多选）<br><input type="checkbox" />【注意：属于同一道“多选题”的每个复选框元素，应该具有相同的name】举例如下<br><label> <input type="checkbox" name="interest" value="coding"/>编程</label><br><label> <input type="checkbox" name="interest" value="other" />其他 </label></p>
+<p>选项菜单：<br>单选<br><select name="career"><br>  <option value="default">请选择职业</option><br></select><br>多选：<br><select name="career" multiple><br>  <option value="default">请选择职业</option><br></select><br>按钮：<button type="submit">注册</button><br>类型    作用<br>text    单行输入框<br>number    用于输入浮点数的控件<br>password    一个值被遮盖的单行文本字段。使用maxlength 指定可以输入的值的最大长度<br>checkbox    复选框。必须使用value属性定义此控件被提交时的值。使用checked属性指示控件是否被选择。也可以使用indeterminate指示复选框在一种不确定状态(大多数平台上，显示为一条穿过复选框的水平线)。<br>radio    单选按钮。必须使用value属性定义此控件被提交时的值。使用checked 必须指示控件是否缺省被选择。在同一个”单选按钮组“中，所有单选按钮的name属性使用同一个值;—个单选按钮组中是，同一时间只有一个单选按钮可以被选择。<br>CSS的使用：<br>字体大小：font-size: 12px;<br>字体的粗细：font-weight: 200;<br>值可以是 100，200，300，400，500，600，700，800，900 中的任何一个,或者可以用英文代替，normal（正常粗细），lighter(细)，bold（粗），bolder（更粗）<br>字体颜色：（四种方式）<br>①英文字母形式：color:black(blue;red)<br>②十六进制颜色（后面跟三个数字，范围是00-FF）：color：#DAE8FC<br>③rgb形式（三个数字的范围0-255）：color：rgb（253,217,106）<br>④rgba形式（在rgb基础上加一位，透明度范围0-1）：color：rgba（253,217,106,0.3）<br>文字位置（对齐方式）：text-align: left;       text-align: right;      text-align: center;<br>行高：line-height:30px;<br>字间距：letter-spacing: 30px;<br>字体：font-family: sans-serif;         ////font-family: ‘Goudy Bookletter 1911’, sans-serif；<br>去除下划线：text-decoration: none;<br>增加下划线：<p href=""></p><br>去除小黑点：list-style:none</p>
+<p>CSS引入方式：<br>①内部样式：【在<head>中放入下面语句】<style>     h3{}      </style><br>②外部样式：<head>中放入下面语句：<link rel="stylesheet" type="text/css" href="./index.css"><br>CSS注释：/<em>CSS的注释内容</em>/<br>路径：返回上一层：../进入css文件夹：ccs/</p>
+<p>类选择器：<br>①定义：<p class="article">优课达</p>【article是类名，可以改变】<br>②使用：.articl<br>③<p class="a b c">【可以定义多个名字，中间用空格隔开】</p>
+<p>id选择器：<br>①定义：<p id="p-item">这是一段文字</p><br>②使用：#p-item</p>
+<p>高级选择器<br>①后代选择器：【改变子，孙，曾孙所有的后代】：p a     <nav><main></p>
+<ul>父<li>子<p>孙<span>曾孙<a href="">曾曾孙</a></span></p></li></ul>
+②交集选择器：a.special
+③子选择器：p>span
+④并集选择器：.box,p,h3,.phone{}
+高级选择器的优先级：id选择器（100）>类选择器（10）>标签选择器（1）
+
+<p>盒模型-content【默认高度为0px】.box{width:200px; height:100px; background-color:purple;}</p>
+<div class="box"></div>
+百分百尺寸：width: 60%;       height: 20%;
+
+<p>Padding的用法：<br>padding: 20px 30px 20px 10px;【第一个值是上，第二个值是右，第三个值如果没有，就和第一个值保持一致，第四个值如果没有就和第二个值保持—致。上右下左】<br>padding-top://bottom://left://right:</p>
+<p>box-sizing(content-box-默认;border-box;）<br>①content-box尺寸计算公式:：box-sizing: content-box;<br>width =内容的宽度                      height =内容的高度<br>②border-box尺寸计算公式:box-sizing: border-box;<br>width = border + padding +内容的宽度   height = border + padding +内容的高度</p>
+<p>边框：【solid是实线 dashed是虚线】border: 1px solid black;<br>border-top://right://bottom://left:<br>无边框：border-bottom: none;</p>
+<p>圆角：border-radius: 12px;<br>border-top-left-radius:<br>border-top-right-radius:<br>border-bottom-left-radius:<br>border-bottom-right-radius: </p>
+<p>阴影： x偏移量 | y偏移量 | 阴影模糊半径 | 阴影扩散半径 | 阴影颜色<br>box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);<br>×偏移量:在×轴上移动，向右为正<br>y偏移量:在y轴上移动，向下为正<br>阴影模糊半径:就是边线的清晰度<br>阴影扩散半径:就是向外伸展<br>阴影颜色:就是矩形下面那个矩形的背景色。</p>
+<p>margin：<br>①总写margin: 20px;<br>②分开写margin-top: //margin-right: //margin-bottom: //margin-left:;<br>设置两个盒子之间的垂直距离：：margin-bottom: 50px;<br>盒子左右居中：【使盒子在父盒中左右居中，一定要有宽度】<br>width:200px;+margin:0 auto;</p>
+<p>display:block/none<br>块元素display: block;<br>行内元素display: inline;<br>隐藏元素：display: none;</p>
+<p>display:inline<br>可以设置padding，不要当成块元素使用<br>可以设置左右margin，不要设置上下margin（没效果）</p>
+<p>dispalay：inline-block同一行显示的块元素<br>去除空格的三种方法：<br>①去除回车，将div标签写在一行：</p>
+<div class="box1"></div>
+<div class="box2"></div>
+→div {      width: 200px;     height: 50px;     display: inline-block;}
+②父元素添加word-spacing: -50px;（一定要小于-20px）
+③父元素添加font-size: 0px;
+
+<p>Position static：不能使用left, top, right, bottom<br>Position relative:   left: 50px;/top/ right/bottom<br>Position absolute:left: 50px;/top/ right/bottom<br>Position fixed:固定；【根据浏览器的边框固定】</p>
+<div> <img src=""/> 文字 </div>
+图层z-index:1;
+固定文字在最上方：position: sticky;+z-index: 1;
+
+<p>Float：float: left;           float: right;<br>nav:一般用于表示此区块是导航区域<br>main:一般用户表示此区块是网页的主体区域<br>Figma:<a target="_blank" rel="noopener" href="https://www.figma.com/">https://www.figma.com/</a>     <a href="mailto:&#49;&#x33;&#55;&#49;&#x36;&#x31;&#x37;&#55;&#x31;&#x34;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#109;">&#49;&#x33;&#55;&#49;&#x36;&#x31;&#x37;&#55;&#x31;&#x34;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#109;</a>  sl917428173<br>清理浏览器自己的格式<br>html,body {height: 100%;margin: 0;}<br>ul,li {margin: 0; padding: 0;}<br>li {list-style: none;}<br>h1,h2 {margin: 0;}<br>p {margin: 0;padding: 0;}</p>
+<p>模态框：<br>①<div class="mask"></div><br>position: fixed; left: 0;right: 0;top: 0;bottom: 0;background-color: rgba(0, 0, 0, 0.7);<br>②完成模态框内部：</p>
+<div class="modal">    <img src="" /></div>
+.modal {background-color: #fff; width: 300px;  height: 150px;  border-radius: 20px;}
+.modal > img {display: block;  width: 200px;  margin: 39px auto; }
+margin-top = (modal高度- img高度)/2
+③完成模态框布局：
+.modal {position: fixed;            left: 50%;        top: 50%; 
+margin-left: -自身宽度的一半          marin-top: -自身高度的一半}
+
+<p>搜索框：<br>①完成搜索框<input placeholder="搜你想要的东西" /></p>
+<div class="right">
+    <div class="search">
+      <input placeholder="搜你想要的东西" />
+      <img src="" />
+    </div>
+    <imgclass="avatar"src="”/>
+  </div>
+
+<p>.right {float: right;}<br>.search { float: left; margin-right: 20px;}<br>.search &gt; input {<br>  width: 220px;<br>  height: 36px;<br>  margin-top: 16px; 【（外面大框架高度-input高度）/2】<br>  font-size: 12px;<br>  box-sizing: border-box; 【同时设置width和padding会用到】<br>  padding: 0 50px 0 15px;<br>  background-color: #ededed;<br>  border-radius: 18px;<br>    border: none;    outline: none;}<br>放大镜图标定位<br>父.search {  position: relative;}<br>子.search &gt; img {  position: absolute;  right: 10px;  top: 17px;<br>  width: 34px;    height: 34px;}</p>
+<p>②完成搜索的结果（定位下面的搜索框）：<ul><li><br>.search-result {<br>  position: absolute;       left: 0;      top: 60px;<br>  padding: 0 15px;【调节左侧的距离】<br>  background-color: #fff;     border-radius: 5px;<br>  box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.16); }</p>
+<p>.search-result &gt; li {  font-size: 12px;  color: #1f2c41;<br>  height: 36px;  line-height: 36px;   width: 190px;<br>  border-bottom: 1px solid #f3f3f3;}</p>
+<p>渐变色：background: linear-gradient(to right, #95ca47 30%, #4dc891 70%);<br>渐变方向<br>. to right/ to left向右/向左渐变<br>. to top / to bottom向上/向下渐变<br>to right bottom / to right top向右下/向右上渐变<br>to left bottom / to left top向左下/向左上渐变<br>xxxdeg xxx范围(0到360)更精确的渐变方向<br>渐变位置：</p>
+<p>内容超出部分隐藏：overflow: hidden;</p>
+<p>背景图片： （要有宽度和高度）<br>放置图片：background-image: url(<a target="_blank" rel="noopener" href="https://style.youkeda.com/img/ykd-components/logo.png">https://style.youkeda.com/img/ykd-components/logo.png</a>);<br>禁止重复：background-repeat: no-repeat;（repeat-x；repeat-y；repeat；no-repeat）<br>图片居中：background-position: center;<br>Background-position值：<br>值    描述<br>top left<br>top center<br>top right<br>center left<br>center center<br>center right<br>bottom left<br>bottom center<br>bottom right    左侧两个元素为—组—起出现，分别代表垂直和水平布局</p>
+<p>比如:<br>background-position: top left;效果等于background-position-x: left;<br>background-position-y: top;<br>如果只写一个关键词，那么另一个关键词默认是center<br>x% y%    第一个值是水平位置，第二个值是垂直位置。<br>左上角是0%0%。右下角是100%100%。如果只写一个值，另—个值将是50%。<br>xpx ypx    第—个值是水平位置，第二个值是垂直位置。<br>左上角是00，单位是像素(Opx Opx)或任何其他的CSS单位。如果只写一个值，另—个值将是50%<br>图片大小：background-size：<br>值    描述<br>cover<br>满足图片长宽中较小的一方撑满屏幕。    把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。<br>背景图像的某些部分也许无法显示在背景定位区域中。<br>contain<br>满足图片长宽中较大的一方撑满屏幕。    扩展至最大尺寸，以使其宽度和高度完全适应内容区域。<br>xpx ypx    手动设置宽度和高度<br>x% y%    手动设置宽度和高度相对于容器的百分比<br>简写：background: url(网址) no-repeat center / contain;</p>
+<p>拓展：position-attachment<br><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-attachment">https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-attachment</a><br>Position-clip  <a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-clip">https://developer.mozilla.org/zh-CN/docs/Web/CSS/background-clip</a></p>
+<p>width: calc(100% - 480px);<br>::placeholder {}<br>border: none;<br>outline: none;</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/08/31/javaInternet/" rel="prev" title="javaInternet">
+      <i class="fa fa-chevron-left"></i> javaInternet
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+        </div>
+        
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
